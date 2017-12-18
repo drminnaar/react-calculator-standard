@@ -1,0 +1,23 @@
+.history {
+    background-color: #fff;
+    position: relative;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.history .history-item > button {
+    border-radius: 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.history .history-item > button:hover {
+    background-color: rgb(177, 243, 245);
+}
+
+.history-trash {
+    cursor: pointer;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}

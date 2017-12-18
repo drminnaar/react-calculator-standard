@@ -1,0 +1,30 @@
+.keypad {
+    height: 400px;
+}
+
+.keypad-row {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.keypad-row > button {
+    font-size: 1.6rem;
+    margin: 2px;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+}
+
+.keypad-primary-btn {
+    background-color: #FBFBFB;
+    color: #20232A;
+    font-weight: bold;
+}
+
+.keypad-secondary-btn {
+    background-color: #F2F2F2;
+    color: #00ACC1;
+}
