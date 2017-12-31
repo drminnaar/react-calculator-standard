@@ -2,6 +2,30 @@
 
 A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions.
 
+The application is composed of the following components:
+
+* Header - A heading that displays application title
+
+* Calculator - The primary (root) component for managing all Calculator and underlying component state.
+
+* Display - Displays the calculator input, expression, and history
+
+* History - Displays a list of previously run operations
+
+* ControlPanel - Used to manage calculator interactions that don't relate to calculation operations. For example, it provides functionality to toggle history open and closed
+
+* Keypad - Used to input operands as well as execute various operations against those operands
+
+Component Diagram
+![Component Diagram](https://user-images.githubusercontent.com/33935506/34460958-8130a58c-ee26-11e7-8e93-fac23dc17d7f.png)
+
+The application makes use of the following domain services:
+
+* CalculatorEngine - A domain service that encapsulates calculator logic
+
+Domain Service Diagram
+![Domain Service Diagram](https://user-images.githubusercontent.com/33935506/34460977-173787e4-ee27-11e7-8655-0223a92a315d.png)
+
 Features:
 
 * Add
@@ -26,7 +50,11 @@ This project also demonstrates:
 
 **Screenshots:**
 
-![react-calculator-standard-1](https://user-images.githubusercontent.com/33935506/34107653-c659c4de-e405-11e7-9da2-5b39a1a0068e.PNG)![react-calculator-standard-2](https://user-images.githubusercontent.com/33935506/34107654-c6880be6-e405-11e7-95fa-6794261125a9.PNG)![react-calculator-standard-3](https://user-images.githubusercontent.com/33935506/34107655-c6b5b384-e405-11e7-819d-55000ea41dc4.PNG)![react-calculator-standard-4](https://user-images.githubusercontent.com/33935506/34107656-c6e3abae-e405-11e7-9045-b0b251260e23.PNG)![react-calculator-standard-5](https://user-images.githubusercontent.com/33935506/34107657-c7182d2a-e405-11e7-829f-99b7eda5d7af.PNG)![react-calculator-standard-6](https://user-images.githubusercontent.com/33935506/34107658-c7ad3ec4-e405-11e7-8526-0920d54b80d8.PNG)
+... | ...
+--- | ---
+![](https://user-images.githubusercontent.com/33935506/34107653-c659c4de-e405-11e7-9da2-5b39a1a0068e.PNG) | ![](https://user-images.githubusercontent.com/33935506/34107654-c6880be6-e405-11e7-95fa-6794261125a9.PNG)
+![](https://user-images.githubusercontent.com/33935506/34107655-c6b5b384-e405-11e7-819d-55000ea41dc4.PNG) | ![](https://user-images.githubusercontent.com/33935506/34107656-c6e3abae-e405-11e7-9045-b0b251260e23.PNG)
+![](https://user-images.githubusercontent.com/33935506/34107657-c7182d2a-e405-11e7-829f-99b7eda5d7af.PNG) | ![](https://user-images.githubusercontent.com/33935506/34107658-c7ad3ec4-e405-11e7-8526-0920d54b80d8.PNG)
 
 ---
 
@@ -71,6 +99,14 @@ This project also demonstrates:
 * [react-movie-cards]
 
   A basic application that displays a list of movies as a list of cards
+
+* [react-bitcoin-monitor]
+
+  An app that monitors changes in the Bitcoin Price Index (BPI)
+
+* [react-weather-standard]
+
+  A weather application that displays the current weather, daily forecasts, and hourly forecasts based on your current geolocation
 
 ---
 
@@ -186,3 +222,6 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 [react-timer-advanced]: https://github.com/drminnaar/react-timer-advanced
 [react-masterminds]: https://github.com/drminnaar/react-masterminds
 [react-movie-cards]: https://github.com/drminnaar/react-movie-cards
+[react-calculator-standard]: https://github.com/drminnaar/react-calculator-standard
+[react-bitcoin-monitor]: https://github.com/drminnaar/react-bitcoin-monitor
+[react-weather-standard]: https://github.com/drminnaar/react-weather-standard
