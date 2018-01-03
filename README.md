@@ -2,7 +2,7 @@
 
 A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions.
 
-Go **[here](http://react-weather-standard.drminnaar.me/)** for live demo.
+Go **[here](http://react-calculator-standard.drminnaar.me/)** for live demo.
 
 The application is composed of the following components:
 
