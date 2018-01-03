@@ -2,6 +2,8 @@
 
 A calculator that provides the essential arithmetic operations, an expression builder, and a complete history of all expressions.
 
+Go **[here](http://react-weather-standard.drminnaar.me/)** for live demo.
+
 The application is composed of the following components:
 
 * Header - A heading that displays application title
@@ -67,6 +69,7 @@ This project also demonstrates:
 * [Webpack](https://webpack.js.org/) - A module bundler
 * [SCSS](http://sass-lang.com/) - A css metalanguage
 * [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
+* [Surge] - Static web publishing for Front-End Developers
 
 ---
 
@@ -215,6 +218,7 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 
 * **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
+[Surge]: https://surge.sh/
 [react-starter]: https://github.com/drminnaar/react-starter
 [react-clicker]: https://github.com/drminnaar/react-clicker
 [react-clock-basic]: https://github.com/drminnaar/react-clock-basic
