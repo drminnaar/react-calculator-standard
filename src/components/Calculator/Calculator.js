@@ -125,8 +125,6 @@ export default class Calculator extends Component {
     handleOnEquals() {
         calculator.equals();
 
-        console.log(calculator.getHistory());
-
         this.setState(() => ({
             expression: calculator.getExpression(),
             value: calculator.getResult().toString(),
